@@ -1,0 +1,12 @@
+* {
+}
+
+.input-email {
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+}

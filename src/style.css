@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  width: 8rem;
+}
+
+.Sign-in-btn {
+  background-color: red;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+.parentContainer {
+  background-image: linear-gradient(
+      to top left,
+      transparent,
+      rgba(0, 0, 0, 0.381)
+    ),
+    linear-gradient(to top right, transparent, rgba(40, 40, 40, 0.381)),
+    linear-gradient(to bottom right, transparent, rgba(0, 0, 0, 0.723)),
+    linear-gradient(to bottom left, transparent, rgba(0, 0, 0, 0.449)),
+    url("../asset/back.jpg");
+}
+
+/* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%; */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.intro-text {
+  font-weight: 500;
+}
+
+.input-email {
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  width: 20rem;
+  height: 3rem;
+  border: 1px solid gray;
+  background-color: transparent;
+  color: white;
+}
+
+.red-btn {
+  background-color: red;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.getStarted {
+  height: 3rem;
+  font-weight: 500;
+}
+
+.signInform {
+  display: flex;
+  gap: 0.5rem;
+}
+
+hr {
+  border: 5px solid #333;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.display {
+  justify-content: center;
+}
+
+.justify {
+  justify-content: center;
+}
+
+.section {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.padding {
+  padding: 5rem;
+}
+
+.plus {
+  font-size: 22px;
+}
+.faq {
+  text-align: center;
+  font-size: 3rem;
+}
+.faq-section {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.acc {
+  background-color: #333;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.accContainer {
+  padding-top: 1rem;
+}
