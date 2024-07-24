@@ -158,3 +158,36 @@ hr {
 .accContainer {
   padding-top: 1rem;
 }
+
+.footer-Items{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 1rem;
+}
+.footer-container{
+  p
+
+}
+
+footer {
+  padding: 2rem 10rem;
+}
+
+li {
+  list-style: none;
+}
+a {
+  color: #ffffffb3;
+}
+
+.language{
+  background-color: transparent;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.lang{
+  color: #333;
+}
